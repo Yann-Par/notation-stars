@@ -1,0 +1,163 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    
+}
+
+main {
+    background-color: hsl(216, 12%, 8%);
+    width : 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, p {
+    color: white;
+}
+
+p {
+    font-size: 15px;
+}
+
+.modale {
+    background-color: hsl(213, 19%, 18%);
+    width : 25em;
+    height : 20em;
+    border-radius: 20px;
+    display : flex;
+    flex-direction : column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+/* .firstModale {
+    
+} */
+
+.starsChoice {
+    display : flex;
+    width : 100%;
+    justify-content: space-between;
+    align-items : center;
+    
+    
+}
+
+.star {
+   background-color: hsl(213, 19%, 25%);
+    padding-top : 0.8em;
+    border-radius:  50%;
+    height : 2.5em;
+    width : 2.5em;
+    text-align : center; 
+}
+.starsChoice button {
+    background-color: hsl(213, 19%, 25%);
+    
+    border-radius:  50%;
+    border : none;
+    height : 3em;
+    width : 3em;
+    text-align : center; 
+    color : white;
+}
+
+.starsChoice button:hover {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.button {
+    width : 80%;
+    margin-right: auto;
+    margin-left : auto;
+    text-align : center;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    border-radius: 5em;
+    border : none;
+    background-color: hsl(25, 97%, 53%);
+    color : hsl(0, 0%, 100%);
+}
+
+.button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color : hsl(25, 97%, 53%);
+}
+
+
+/* .orange {
+    background-color: hsl(25, 97%, 53%)!important;
+    color : hsl(0, 0%, 100%)!important;
+    border : none;
+} */
+
+
+/* second modale */
+
+
+.secondModale {
+    display : flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content: space-evenly;
+}
+
+.thankYou {
+    width : 100%;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+}
+.thankYou img{
+    height : 5em;
+    width : auto;
+}
+
+
+
+.selected {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background-color: hsl(213, 19%, 25%);
+    color : hsl(25, 97%, 53%);
+    border-radius : 5em;
+}
+
+h2 {
+    font-weight: bold;
+    color : hsl(0, 0%, 100%);
+}
+
+.secondModale p {
+    text-align : center;
+}
+
+
+/* .mod {
+    display : none;
+} */
+
+
+/* attribution */
+
+.attribution {
+    margin-top : 3em;
+}
+
+
+
+@media screen and (max-width : 375px) {
+    .modale {
+        width : 19em;
+        height: 19em;
+    }
+}
