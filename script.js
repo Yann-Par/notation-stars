@@ -1,17 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
 
-
-    
-
-
-
-
-
-
-const submit = document.getElementById("button");
-
-
 let one = document.getElementById("one");
 let two = document.getElementById("two");
 let three = document.getElementById("three");
@@ -135,6 +124,22 @@ five.addEventListener("click", function(){
 
 starsNote.innerHTML = numbersOfStars;
 
+
+
+
+const submit = document.getElementById("button");
+let firstModale = document.getElementById('firstModale');
+let secondModale = document.getElementById('secondModale');
+
+
+
+submit.addEventListener ("click", function(){
+  
+    firstModale.style.display = "none";
+    secondModale.style.display = "flex";
+
+    console.log(submit)
+})
 
 
 });
